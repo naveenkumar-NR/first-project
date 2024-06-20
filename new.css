@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image:url(images.jpg);
+    background-size: cover;
+}
+div{
+    display: inline;
+}
+#one{
+    background-color: aqua;
+    position: static;
+}
+#two{
+    background-color: rebeccapurple;
+    position: absolute;
+    display: block;
+}
+#three{
+    background-color: blueviolet;
+    position: relative;
+}
+#four{
+    background-color: ;
+    position: fixed;
+}
+#five{
+    background-color: aqua;
+    position: sticky;
+    bottom: 5px;
+}
